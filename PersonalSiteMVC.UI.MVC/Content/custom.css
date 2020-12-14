@@ -1,0 +1,95 @@
+﻿a.logo {
+    padding-top: 15px;
+    display: inline-block;
+    font-size: 1.25em;
+    color: #fff;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#home {
+    background-image: url('/Content/images/renhome.jpg.jpg');
+}
+
+#band-member-3 {
+    background-image: url('/Content/images/8.jpg');
+}
+
+#band-member-1 {
+    background-image: url('/Content/images/7.jpg');
+}
+
+#band-member-2 {
+    background-image: url('/Content/images/6.jpg');
+}
+
+#contact-us {
+    background-image: url('/Content/images/vvvvvv.jpg');
+}
+
+#band-member-4 {
+    background-image: url('/Content/images/1.jpg');
+}
+
+#band-member-5 {
+    background-image: url('/Content/images/4.jpg');
+}
+
+#band-member-6 {
+    background-image: url('/Content/images/3.jpg');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 400;
+}
+
+#noUnderLine{
+    text-decoration: none;
+}
+
+#contactConfirm{
+    display: none;
+}
+
+#bigtextforbtn{
+    color: black;
+}
+
+.BigWhite {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    padding: 14px 25px;
+    text-decoration: underline;
+    background-color: transparent;
+    font-weight: 700;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+}
+#lightbox-container {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding-top: 65px;
+    z-index: 1031;
+    display: none;
+}
+
+    #lightbox-container p {
+        color: #fff;
+    }
+
+#lightbox-content img {
+    margin: auto;
+    border: 10px solid gray;
+}
+
+.thumb {
+    cursor: pointer;
+}
